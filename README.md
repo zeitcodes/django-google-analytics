@@ -23,7 +23,7 @@ Template Tags
 ###google_analytics
 Inserts the Google Analytics' tracking code in your template. Takes the tracking code as an argument.
 
-'''html
+```html
 {% load analytics %}
 <html>
     <head>
@@ -35,4 +35,4 @@ Inserts the Google Analytics' tracking code in your template. Takes the tracking
         {% google_analytics 'UA-XXXXXXX-XX' %}
     </body>
 </html>
-''''
+```
