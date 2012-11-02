@@ -6,7 +6,7 @@ Django Google Analytics provides a template tag for inserting the tracking code 
 Installation
 ------------
 
-Run `pip install hg+https://bitbucket.org/nextscreenlabs/django-google-analytics`
+Run `pip install django-google-analytics`
 
 Add `google_analytics` to your `INSTALLED_APPS` setting:
 
