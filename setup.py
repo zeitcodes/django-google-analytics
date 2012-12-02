@@ -23,7 +23,7 @@ def get_readme():
     return ''
 
 setup(
-    name = 'django-google-analytics',
+    name = 'django-google-urchin',
     version = __import__('google_analytics').get_version().replace(' ', '-'),
     url = 'https://bitbucket.org/nextscreenlabs/django-google-analytics',
     author = 'Jason Christa',
